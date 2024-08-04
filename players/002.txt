@@ -1,0 +1,5 @@
+sub_region = Europe West
+
+tag_line = EUW
+
+game_name = KC NEXT ADKING

@@ -1,0 +1,5 @@
+sub_region = Europe West
+
+tag_line = METIN
+
+game_name = Flakkardo

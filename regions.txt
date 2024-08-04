@@ -1,0 +1,20 @@
+Americas
+    North America = NA1
+    Brazil = BR1
+    LAS = LA2
+    LAN = La1
+Europe
+    Europe West = EUW1
+    Europe Nordic & East = EUN1
+Asia
+    Korea = KR
+    Japan = JP1
+    Russia = RU
+    Türkiye = TR2
+    Singapore = SG2
+    Philippines = PH2
+    Taiwan = TW2
+    Vietnam = VN2
+    Thailand = TH2
+    Middle East = ME1
+    Oceania = OC1
