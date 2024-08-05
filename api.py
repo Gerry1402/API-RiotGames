@@ -1,5 +1,5 @@
 import requests
-from functions import var_file, var_players, account_info_puuid, get_puuid, var_servers
+from functions import var_file, var_players, account_info_puuid, get_puuid, var_servers, last_matches
 
 servers = var_servers()
 
@@ -13,8 +13,7 @@ for player in players.values():
     name = player['game_name']
     tag = player['tag_line']
     puuid = get_puuid(region=region, game_name=name, tag_line=tag)
-    print(account_info_puuid(server=server, puuid=puuid))
-
+    print(f'{name}:', ', '.join(last_matches(region = region, puuid = puuid, start_time = '2023/08/21 14:39', type ='normal', start = 2, count = 12)))
 """
 
 
